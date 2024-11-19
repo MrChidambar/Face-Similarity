@@ -1,68 +1,55 @@
-Project Name: Which Bollywood Celebrity You look like
-A Deep learning based streamlit web app which can tell with which bollywood celebrity your face resembles.
+Project Name: Which Bollywood Celebrity You Look Like
+A deep learning-based Streamlit web app that can tell which Bollywood celebrity your face resembles.
 
-Face recognition is the problem of identifying and verifying people in a photograph by their face. It is a task that is trivially performed by humans, even under varying light and when faces are changed by age or obstructed with accessories and facial hair. Nevertheless, it is remained a challenging computer vision problem for decades until recently.
+Face recognition involves identifying and verifying people in a photograph by their face. It is a task easily performed by humans, even under varying light conditions and when faces are altered by age or obscured by accessories and facial hair. Nevertheless, it has remained a challenging computer vision problem for decades until recently.
 
-Deep learning methods are able to leverage very large datasets of faces and learn rich and compact representations of faces, allowing modern models to first perform as-well and later to outperform the face recognition capabilities of humans.
+Deep learning methods can leverage very large datasets of faces to learn rich and compact representations, allowing modern models to perform as well as, and later outperform, the face recognition capabilities of humans.
 
-In this project, you will discover the problem of face recognition and how deep learning methods can achieve superhuman performance to identify similar faces.
+In this project, you will explore the problem of face recognition and how deep learning methods can achieve superhuman performance in identifying similar faces.
 
-Original repo:
-https://github.com/entbappy/Which-Bollywood-Celebrity-You-look-like
 
-Demo Video:
-https://www.youtube.com/watch?v=lYSsLFgFzBk&list=PLkz_y24mlSJYI78C1IZJaghNvC7dh6red&index=6
+This project identifies similar faces by checking various aspects in pictures, including face shape, nose, eyes and mouth; face position in the picture; skin color (including lighting); color and hair; and cosine similarity.
 
-This is a methods of identifying similar faces check various aspects on pictures, including: face shape, nose, eyes and mouth; face position in the picture; skin color (including the lighting of the photo); color and hair and cosine_similarity.
+Dataset Used: Kaggle Dataset
 
-Dataset has been used:
-https://www.kaggle.com/sushilyadav1998/bollywood-celeb-localized-face-dataset
-
-Some Real Time Demo:
+Some Real-Time Demos:
 Web app look
 
-workflow
+Workflow
 
-Lets check some of images
+Let's check some images:
 
-workflow
+Workflow
 
-workflow
+Workflow
 
-This really performing good you can consider by seeing this result 😀
+This project performs well, as shown by the results. 😀
 
-workflow
+The fun part is I look like Riteish Deshmukh! 😄😁
 
-The fun part is I am looked like Riteish Deshmukh 😄😁
+Steps to Run This Project:
+You can also use other images instead of Bollywood celebrities.
 
-workflow
+STEP 01: Clone the repository:
 
-STEPS to run this project:
-You can also use others images instead of bollywood actress
-
-STEP 01:
-Clone the repository
-
+bash
 git clone https://github.com/entbappy/Which-Bollywood-Celebrity-You-look-like.git
-STEP 02:
-Create an environment
+STEP 02: Create an environment:
 
+bash
 conda create -n celebrity python=3.7 -y
-STEP 03:
-Install the requirements
+STEP 03: Install the requirements:
 
+bash
 pip install -r requirements.txt
-STEP 04:
-Download the data from the link and keep it in your project directory. Make sure all the actress folder should be in just one folder called data, like that
+STEP 04: Download the data from the link and keep it in your project directory. Ensure all the folders for actresses are within a single folder called data.
 
-workflow
+STEP 05: Execute this command one time if you are not changing the data:
 
-STEP 05:
-Just execute this command one time if you are not changing the data
-
+bash
 python run.py
-STEP 06:
-Now to start the webapp run the following command
+STEP 06: To start the web app, run the following command:
 
+bash
 streamlit run app.py
-yes!! Now you can start predicting 🙂
+Yes! Now you can start predicting. 🙂
