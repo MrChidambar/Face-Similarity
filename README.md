@@ -32,8 +32,7 @@ You can also use other images instead of Bollywood celebrities.
 
 STEP 01: Clone the repository:
 
-bash
-git clone https://github.com/entbappy/Which-Bollywood-Celebrity-You-look-like.git
+
 STEP 02: Create an environment:
 
 bash
